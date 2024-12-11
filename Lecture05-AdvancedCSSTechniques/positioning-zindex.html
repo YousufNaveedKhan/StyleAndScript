@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning and z-index</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: lightgreen;
+            position: relative;  /* Position relative to its normal position */
+            z-index: 10;         /* Stacks it above other elements */
+        }
+        .box2 {
+            width: 100px;
+            height: 100px;
+            background-color: lightpink;
+            position: relative;
+            z-index: 5;          /* Stacks it below the first box */
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Box 1</div>
+    <div class="box2">Box 2</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+/* Styling for all h3 elements on the page */
+h3 {
+    /* Setting the text color to green */
+    color: green;
+
+    /* Adjusting the font size to 26px */
+    font-size: 26px;
+
+    /* Defining the font family, with fallbacks if the primary font isn't available */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

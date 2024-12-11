@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TechTalksOfficial | Portfolio</title>
+
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- FONT AWESOME -->
+        <script src="https://kit.fontawesome.com/e72ec5eeea.js"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+        <script src="assets/js/script.js"></script>
+
+        <!-- SWIPER CSS -->
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    </head>
+
+    <body>
+        <!-- HOME SECTION -->
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <h1 class="logo">
+                        <span>TechTalks</span>Official
+                    </h1>
+<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+<ul id="sidemenu">
+    <li><a href="#header">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#what-we-offer">Services</a></li>
+    <li><a href="#techstack">TechStack</a></li>
+    <li><a href="#team">Team</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+</ul>
+                </nav>
+                <div class="header-text">
+                    <p>Empowering Through Technology</p>
+                    <h1>Welcome to
+                        <span>TechTalksOfficial</span><br>Portfolio</h1>
+                        <a href="https://www.github.com/techtalksofficial" target="_blank" class="cta-btn">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- WHO WE ARE & OUR MISSION SECTION -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <h1 class="title-about">Who We Are</h1>
+                        <p>TechTalksOfficial was created by Yousuf Naveed Khan
+                            and Muneeb Hassan Siddiqui, two friends who launched
+                            this collaborative channel on WhatsApp. Our goal was
+                            to share our experiences and practices in the tech
+                            field in a professional way with fellow tech
+                            enthusiasts. We started by discussing various topics
+                            related to technology, trends, and best practices.
+                            Over time, we expanded our offerings and introduced
+                            different courses, such as our
+                            <strong>Mastering-RDBMS</strong>,
+                            <strong>StyleAndScript</strong>, and the current
+                            <strong>PHP360</strong> courses. We also have
+                            upcoming courses like
+                            <strong>SharpToCoreLearning</strong> and, God
+                            willing, a <strong>JavaScript</strong> course.
+                            Through these courses, we share the knowledge we've
+                            gained from mentors, teachers, and our own
+                            experiences working in the tech industry. Our
+                            journey is ongoing, and we are excited to share it
+                            with all of you.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-col-2">
+                        <h1 class="title-about">Our Mission</h1>
+                        <p>We aim to create a community of learners who can
+                            easily access knowledge, improve their skills, and
+                            implement real-world solutions. Our tutorials are
+                            designed to be straightforward, practical, and
+                            suitable for both beginners and advanced
+                            learners.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- WHAT WE OFFER SECTION -->
+        <div id="what-we-offer">
+            <div class="container">
+                <div class="sub-title">What We Offer</div>
+                <div class="tab-titles">
+                    <div class="tab-links active-link"
+                        onclick="opentab(event, 'programming-courses')">Comprehensive
+                        Programming Courses</div>
+                    <div class="tab-links"
+                        onclick="opentab(event, 'real-world-projects')">Real-World
+                        Projects</div>
+                    <div class="tab-links"
+                        onclick="opentab(event, 'collaborative-learning')">Collaborative
+                        Learning</div>
+                    <div class="tab-links"
+                        onclick="opentab(event, 'regular-updates')">Regular
+                        Updates</div>
+                </div>
+
+                <div class="tab-contents active-tab" id="programming-courses">
+                    <span>PHP (Beginner to Advanced) 🌐</span>
+                    <span>C# (Beginner to Advanced) 💻</span>
+                    <span>Web Development (HTML, CSS, JavaScript) 🌍</span>
+                    <a href="https://github.com/TechTalksOfficial"
+                        class="btn-explore" target="_blank">Explore</a>
+                </div>
+
+                <div class="tab-contents" id="real-world-projects">
+                    <span>E-Commerce Stores 🛒</span>
+                    <span>Authentication Systems 🔑</span>
+                    <span>Blog Applications 📝</span>
+                    <a href="https://github.com/TechTalksOfficial"
+                        class="btn-explore" target="_blank">Explore</a>
+                </div>
+
+                <div class="tab-contents" id="collaborative-learning">
+                    <p>Join our growing community of like-minded tech
+                        enthusiasts. Share ideas, feedback, and contribute to
+                        open-source projects.</p>
+                    <a href="https://github.com/TechTalksOfficial"
+                        class="btn-explore" target="_blank">Explore</a>
+                </div>
+
+                <div class="tab-contents" id="regular-updates">
+                    <p>Stay tuned for new tutorials, improvements, and projects
+                        as we continue to expand our content!</p>
+                    <a href="https://github.com/TechTalksOfficial"
+                        class="btn-explore" target="_blank">Explore</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- TECHSTACK SECTION -->
+        <div id="techstack">
+            <div class="container">
+                <div class="sub-title">TechStack</div>
+                <p>We focus on teaching and using the following languages and
+                    technologies:</p>
+                <div class="tech-list">
+                    <div class="tech">
+                        <i class="fa-brands fa-php"></i>
+                        <span>PHP</span>
+                    </div>
+                    <div class="tech">
+                        <i class="fa-brands fa-c"></i>
+                        <span>C#</span>
+                    </div>
+                    <div class="tech">
+                        <i class="fa-brands fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="tech">
+                        <i class="fa-brands fa-database"></i>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="tech">
+                        <i class="fa-brands fa-microsoft"></i>
+                        <span>SQL Server</span>
+                    </div>
+                    <div class="tech">
+                        <i class="fa-brands fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="tech">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="tech">
+                        <i class="fa-brands fa-bootstrap"></i>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="tech">
+                        <i class="fa-brands fa-square-js"></i>
+                        <span>jQuery</span>
+                    </div>
+                    <div class="tech">
+                        <i class="fa-brands fa-windows"></i>
+                        <span>ASP.NET Core MVC</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- OUR TEAM SECTION -->
+        <div id="team">
+            <div class="container">
+                <div class="sub-title">Our Team</div>
+                <div class="swiper mySwiper cw">
+                    <div class="swiper-wrapper content">
+                        <div class="swiper-slide card">
+                            <div class="card-content">
+                                <div class="image">
+                                    <img src="assets/imgs/dev-m.jpg"
+                                        alt="Yousuf Naveed">
+                                </div>
+                                <div class="media-icons">
+                                    <a
+                                        href="https://www.facebook.com/yousufnaveedkhan" target="_blank"><i
+                                            class="fa-brands fa-facebook"></i></a>
+                                    <a
+                                        href="https://www.instagram.com/yousufnaveedkhan" target="_blank"><i
+                                            class="fa-brands fa-instagram"></i></a>
+                                    <a href="mailto:yk033127@gmail.com" target="_blank"><i
+                                            class="fa-solid fa-envelope"></i></a>
+                                </div>
+                                <div class="name-designation">
+                                    <span class="name">Yousuf Naveed</span><br>
+                                    <span class="designation">Founder &
+                                        Developer</span>
+                                </div>
+                                <div class="button">
+                                    <a
+                                        href="https://www.linkedin.com/in/yousufnaveedkhan"
+                                        target="_blank"><button
+                                            class="linkedIn">LinkedIn</button></a>
+                                    <a
+                                        href="https://github.com/yousufnaveedkhan"
+                                        target="_blank"><button
+                                            class="github">GitHub</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide card">
+                            <div class="card-content">
+                                <div class="image">
+                                    <img src="assets/imgs/dev-m.jpg"
+                                        alt="Muneeb Hassan">
+                                </div>
+                                <div class="media-icons">
+                                    <a
+                                        href="https://www.facebook.com/M.MuneebHassan11" target="_blank"><i
+                                            class="fa-brands fa-facebook"></i></a>
+                                    <a
+                                        href="https://www.instagram.com/__.iammuneeb.__" target="_blank"><i
+                                            class="fa-brands fa-instagram"></i></a>
+                                    <a href="mailto:mmunibhassan@gmail.com" target="_blank"><i
+                                            class="fa-solid fa-envelope"></i></a>
+                                </div>
+                                <div class="name-designation">
+                                    <span class="name">Muneeb Hassan</span><br>
+                                    <span class="designation">Founder &
+                                        Developer</span>
+                                </div>
+                                <div class="button">
+                                    <a href="#"><button
+                                            class="linkedIn">LinkedIn</button></a>
+                                    <a
+                                        href="https://github.com/muneebhassansiddiqui"
+                                        target="_blank"><button
+                                            class="github">GitHub</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTACT US SECTION -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="title-contact">Contact Us</h1>
+                        <p><i class="fa-solid fa-envelope"></i>
+                            contact@techtalksofficial.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> +92 331
+                            2345678</p>
+                        <!-- <div class="social-icons">
+                            <a
+                                href="https://www.facebook.com/techtalksofficial"><i
+                                    class="fa-brands fa-facebook"
+                                    id="fb"></i></a>
+                            <a
+                                href="https://www.instagram.com/techtalksofficial"><i
+                                    class="fa-brands fa-instagram"
+                                    id="insta"></i></a>
+                            <a
+                                href="https://www.linkedin.com/company/techtalksofficial"><i
+                                    class="fa-brands fa-linkedin"
+                                    id="linkedin"></i></a>
+                            <a href="https://github.com/techtalksofficial"><i
+                                    class="fa-brands fa-github"
+                                    id="github"></i></a>
+                        </div> -->
+                        <a href="https://www.github.com/techtalksofficial" target="_blank" class="btn btn2" style="margin-top: 50px;">Work with us</a>
+                    </div>
+
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Name" required>
+                            <input type="email" name="Email"
+                                placeholder="Email" required>
+                            <input type="text" name="Subject"
+                                placeholder="Subject">
+                            <textarea name="Message"
+                                placeholder="Message" required></textarea>
+                            <button class="btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="footer-content">
+                <p>Designed with ❤️ by TechTalksOfficial</p>
+                <p>© 2024 All Rights Reserved</p>
+            </div>
+        </footer>
+
+        <!-- Swiper JS -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+var swiper;
+
+function initializeSwiper() {
+  if (window.innerWidth <= 600) {
+    swiper = new Swiper(".mySwiper", {
+      slidesPerView: "auto",
+      spaceBetween: 10,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  } else {
+    swiper = new Swiper(".mySwiper", {
+      slidesPerView: 2,
+      spaceBetween: 60,
+      slidersPerGroup: 2,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  }
+}
+
+// Initialize Swiper on page load
+initializeSwiper();
+
+// Listen for window resize event and update Swiper settings
+window.addEventListener("resize", function () {
+  if (swiper) {
+    swiper.destroy(); // Destroy the existing Swiper instance
+  }
+  initializeSwiper(); // Initialize Swiper with updated settings
+});
+
+  </script>
+    </body>
+
+</html>

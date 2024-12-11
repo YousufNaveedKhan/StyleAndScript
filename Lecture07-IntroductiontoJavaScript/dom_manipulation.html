@@ -1,0 +1,24 @@
+<!-- TechTalksOfficial - Style And Script (Web Designing Course) | Lecture 07 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Example</title>
+</head>
+<body>
+    <h1 id="title">Hello, JavaScript!</h1>
+    <button id="changeButton">Change Title</button>
+
+    <script>
+        // Get the element by its ID
+        let title = document.getElementById("title");
+        let button = document.getElementById("changeButton");
+
+        // Event listener for button click
+        button.addEventListener("click", function() {
+            title.innerText = "Title Changed!";  // Changes the text inside the h1
+        });
+    </script>
+</body>
+</html>

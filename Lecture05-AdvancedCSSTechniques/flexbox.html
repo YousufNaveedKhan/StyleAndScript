@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout</title>
+    <style>
+        .container {
+            display: flex;                  /* Creates a flex container */
+            justify-content: space-between; /* Distributes space evenly between items */
+            align-items: center;            /* Aligns items vertically in the center */
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            text-align: center;
+            line-height: 100px;  /* Centers text inside the box */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Item 1</div>
+        <div class="box">Item 2</div>
+        <div class="box">Item 3</div>
+    </div>
+</body>
+</html>

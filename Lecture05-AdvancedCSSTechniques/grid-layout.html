@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Layout</title>
+    <style>
+        .grid-container {
+            display: grid;                     /* Defines a grid container */
+            grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+            gap: 10px;                         /* Adds space between grid items */
+        }
+        .box {
+            background-color: lightcoral;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="box">Item 1</div>
+        <div class="box">Item 2</div>
+        <div class="box">Item 3</div>
+        <div class="box">Item 4</div>
+    </div>
+</body>
+</html>

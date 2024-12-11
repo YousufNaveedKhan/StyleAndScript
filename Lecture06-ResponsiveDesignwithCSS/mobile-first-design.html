@@ -1,0 +1,46 @@
+<!-- TechTalksOfficial - Style And Script (Web Designing Course) | Lecture 06 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile-First Design</title>
+    <style>
+        /* Mobile-first styles */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .box {
+            background-color: lightgreen;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        /* For screens wider than 768px */
+        @media (min-width: 768px) {
+            .container {
+                flex-direction: row;
+                gap: 20px;
+            }
+
+            .box {
+                width: 48%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Item 1</div>
+        <div class="box">Item 2</div>
+    </div>
+</body>
+</html>
